@@ -70,7 +70,7 @@ function processOrder() {
     } else {
         console.log("Введите сумму больше 0");
     }
-
+                     
     console.log("Осталось средств:", money + "$");
 }
 
@@ -107,5 +107,5 @@ function getProductPrice(product) {
             return 0;
     }
 }
-
+// ABDULLOX KRASSAVCHIK
 processOrder();
